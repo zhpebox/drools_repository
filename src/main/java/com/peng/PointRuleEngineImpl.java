@@ -87,6 +87,7 @@ public class PointRuleEngineImpl implements PointRuleEngine {
 
      */
 
+    @Override
     public void refreshEnginRule() {
 
         ruleBase = RuleBaseFacatory.getRuleBase();

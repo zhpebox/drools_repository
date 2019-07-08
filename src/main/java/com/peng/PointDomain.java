@@ -5,6 +5,9 @@ package com.peng;
  * @Auther: zhangpeng
  * @Date: 2019/7/8
  */
+
+import lombok.Data;
+
 /**
 
  * 积分计算对象
@@ -12,140 +15,12 @@ package com.peng;
  * @author quzishen
 
  */
-
+@Data
 public class PointDomain {
 
 // 用户名
 
     private String userName;
-
-    public String getUserName() {
-
-
-        return userName;
-
-    }
-
-
-    public void setUserName(String userName) {
-
-
-        this.userName = userName;
-
-    }
-
-
-    public boolean isBirthDay() {
-
-
-        return birthDay;
-
-    }
-
-
-    public void setBirthDay(boolean birthDay) {
-
-
-        this.birthDay = birthDay;
-
-    }
-
-
-    public double getPoint() {
-
-
-        return point;
-
-    }
-
-
-    public void setPoint(double point) {
-
-
-        this.point = point;
-
-    }
-
-
-    public int getBuyNums() {
-
-
-        return buyNums;
-
-    }
-
-
-    public void setBuyNums(int buyNums) {
-
-
-        this.buyNums = buyNums;
-
-    }
-
-
-    public int getBackNums() {
-
-
-        return backNums;
-
-    }
-
-
-    public void setBackNums(int backNums) {
-
-
-        this.backNums = backNums;
-
-    }
-
-
-    public double getBuyMoney() {
-
-
-        return buyMoney;
-
-    }
-
-
-    public void setBuyMoney(double buyMoney) {
-
-
-        this.buyMoney = buyMoney;
-
-    }
-
-
-    public double getBackMondy() {
-
-
-        return backMondy;
-
-    }
-
-
-    public void setBackMondy(double backMondy) {
-
-
-        this.backMondy = backMondy;
-
-    }
-
-
-    public int getBillThisMonth() {
-
-
-        return billThisMonth;
-
-    }
-
-
-    public void setBillThisMonth(int billThisMonth) {
-
-
-        this.billThisMonth = billThisMonth;
-
-    }
-
 
 // 是否当日生日
 
